@@ -1,0 +1,16 @@
+{
+    "workbench.editorAssociations": {
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer"
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "name": "cars_local",
+            "database": "cars.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
