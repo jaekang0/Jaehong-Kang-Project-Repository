@@ -16,3 +16,10 @@ SELECT * FROM read_csv_auto('data/raw/cars.csv', HEADER=true);
 
 CREATE OR REPLACE TABLE raw_5 AS
 SELECT * FROM read_csv_auto('data/raw/cleaneddata.csv', HEADER=true);
+
+-- Describe
+DESCRIBE raw_1;
+DESCRIBE raw_2;
+DESCRIBE raw_3;
+DESCRIBE raw_4;
+DESCRIBE raw_5;
